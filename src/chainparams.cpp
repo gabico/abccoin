@@ -35,7 +35,7 @@ public:
         // Build the genesis block. Note that the output of the genesis coinbase cannot
         // be spent as it did not originally exist in the database.
   
-        const char* pszTimestamp = "ABCCoin";
+        const char* pszTimestamp = "Gabicoin";
         CTransaction txNew;
         txNew.vin.resize(1);
         txNew.vout.resize(1);
