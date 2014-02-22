@@ -23,10 +23,10 @@ class CMainParams : public CChainParams {
 public:
     CMainParams() {
         // The message start string is designed to be unlikely to occur in normal data.
-        pchMessageStart[0] = 0x04;
-        pchMessageStart[1] = 0x04;
-        pchMessageStart[2] = 0x04;
-        pchMessageStart[3] = 0x04;
+        pchMessageStart[0] = 0x07;
+        pchMessageStart[1] = 0x02;
+        pchMessageStart[2] = 0xb5;
+        pchMessageStart[3] = 0x03;
         nDefaultPort = 5530;
         nRPCPort = 5531;
         bnProofOfWorkLimit = CBigNum(~uint256(0) >> 20);
